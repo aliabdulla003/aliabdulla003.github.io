@@ -80,9 +80,13 @@ img
 
 
 /*about page*/
-.kid-img
+.aboutme
 {
   padding-top: 90px;
+  border-top: 100px solid #89CFF0;
+}
+.kid-img
+{
   width: 33%;
   height: auto;
 }
@@ -162,7 +166,6 @@ img
   padding: 10px 10px 10px 10px;
   border-radius: 15%;
   display: inline-block;
-
 }
 .camera img
 {
@@ -175,11 +178,10 @@ img
 .d
 {
   display: inline-block;
-
-margin-bottom: 5%;
-border-top: 15px solid #FFBF00;
-border-width: medium;
-border-radius: 50%;
+  margin-bottom: 5%;
+  border-top: 15px solid #FFBF00;
+  border-width: medium;
+  border-radius: 50%;
 }
 .p2
 {
