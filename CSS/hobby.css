@@ -2,12 +2,11 @@
 *
 {
   margin: auto;
-  box-sizing: border-box;
 }
 body
 {
   background-color: #f0f8ff;
-  position: static;
+  position: relative;
 }
 .navbar
 {
@@ -225,7 +224,7 @@ img
 
 .photos
 {
-  width: 50%;
+  width: 60%;
   background-color: white;
   box-shadow: 0 4px 8px 0;
   margin-bottom: 2%;
