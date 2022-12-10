@@ -3,6 +3,7 @@
 {
   margin: auto;
   box-sizing: border-box;
+  position: relative;
 }
 body
 {
@@ -172,7 +173,7 @@ img
 .d
 {
 margin-top: 45%;
-margin-bottom: 40%;
+margin-bottom: 20%;
 border-top: 15px solid #FFBF00;
 border-width: medium;
 border-radius: 50%;
