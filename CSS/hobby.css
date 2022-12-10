@@ -80,52 +80,40 @@ img
 
 
 /*about page*/
-.ali
+.kid-img
 {
-  display: flex;
   padding-top: 90px;
-  margin-bottom: 20%;
-  border-top: 100px solid #89CFF0;
+  width: 33%;
+  height: auto;
+}
+.kid-img img
+{
+  border-radius: 50%;
 }
 
-.ali h3
+.ali h1
 {
-z-index: 10;
-position: relative;
   text-align: center;
-  width: 33%;
-  float: left;
-  margin-left:  9%;
   margin-top: 1%;
-  font-size: 100px;
+  margin-bottom: 1%;
   font-family: monospace;
-  font-weight: lighter;
   text-transform: uppercase;
   color: #007FFF;
-  display: inline-block;
-}
-.ali img
-{
-  position: relative;
-  display: inline-block;
-    height: auto;
-    max-width: 15%;
-    float: right;
-    margin-right: 10%;
-    margin-top: 1%;
+  font-weight: lighter;
+  font-size: 65px;
 }
 .aboutp
 {
   text-align: center;
-  font-size: 30px;
+  font-size: 20px;
   color: #1c39bb;
-  width: 90%;
+  width: 60%;
   margin-bottom: 10%;
   border: groove;
   border-width: thick;
   border-color: #cb4154;
   background-color: #f5f5dc;
-  padding: 25px 25px 25px 25px;
+  padding: 15px 25px 25px 25px;
   height: auto;
 }
 .aboutp::first-letter
