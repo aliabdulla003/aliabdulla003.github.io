@@ -95,7 +95,7 @@ position: relative;
   float: left;
   margin-left:  9%;
   margin-top: 1%;
-  font-size: 190px;
+  font-size: 55px;
   font-family: monospace;
   font-weight: lighter;
   text-transform: uppercase;
@@ -244,6 +244,9 @@ footer
 
 
 @media only screen and (max-width: 600px) {
+  .bck {
+    color: red;
+  }
   .responsiveweb{
     width: 100%;
     height: auto;
