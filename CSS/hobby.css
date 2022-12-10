@@ -41,7 +41,7 @@ blockquote
 {
   margin: 1%;
   padding: 10px;
-  font-size: 22px;
+  font-size: 15px;
   border-top: 1px solid #FFBF00;
   border-bottom: 1px solid #0088dd;
 }
@@ -52,7 +52,7 @@ blockquote
 }
 .bck h1
 {
-padding-top: 50px;
+padding-top: 65px;
 padding-left: 25px;
 font-family: monospace;
 font-style: normal;
