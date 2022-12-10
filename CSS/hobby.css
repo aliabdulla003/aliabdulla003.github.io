@@ -11,6 +11,7 @@ body
 }
 .menu
 {
+  position: relative;
   margin: auto;
   padding: 10px;
   z-index: 6;
@@ -26,14 +27,14 @@ body
   font-weight: lighter;
   list-style: none;
   display: inline-block;
-  padding: 10px;
+  padding: 5px;
   text-transform: uppercase;
 }
 .menu ul li a
 {
   text-decoration: none;
   color: #007FFF;
-  font-size: 20px;
+  font-size: 15px;
 }
 .menu ul li a:hover
 {
@@ -49,7 +50,7 @@ blockquote
 }
 .bck h1
 {
-padding-top: 80px;
+padding-top: 50px;
 padding-left: 25px;
 font-family: monospace;
 font-style: normal;
@@ -95,17 +96,19 @@ position: relative;
   float: left;
   margin-left:  9%;
   margin-top: 1%;
-  font-size: 55px;
+  font-size: 100px;
   font-family: monospace;
   font-weight: lighter;
   text-transform: uppercase;
   color: #007FFF;
+  display: inline-block;
 }
 .ali img
 {
   position: relative;
-    height: 30%;
-    width: 30%;
+  display: inline-block;
+    height: auto;
+    max-width: 15%;
     float: right;
     margin-right: 10%;
     margin-top: 1%;
@@ -250,9 +253,6 @@ footer
 
 
 @media only screen and (max-width: 600px) {
-  .bck {
-    color: red;
-  }
   .responsiveweb{
     width: 100%;
     height: auto;
