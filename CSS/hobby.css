@@ -88,7 +88,8 @@ img
 
 .ali h3
 {
-
+z-index: 10;
+position: relative;
   text-align: center;
   width: 33%;
   float: left;
@@ -102,6 +103,7 @@ img
 }
 .ali img
 {
+  position: relative;
     height: 30%;
     width: 30%;
     float: right;
