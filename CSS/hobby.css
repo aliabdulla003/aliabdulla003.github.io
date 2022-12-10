@@ -142,7 +142,8 @@ position: relative;
 }
 .journey h3
 {
-  font-size: 150px;
+  position: relative;
+  font-size: 50px;
   font-family: monospace;
   color: #007FFF;
   text-align: center;
