@@ -7,39 +7,36 @@
 body
 {
   background-color: #f0f8ff;
-  position: relative;
+  position: static;
 }
-.menu
+.navbar
 {
-  position: relative;
+  position: fixed;
+  display: inline-block;
   margin: auto;
-  padding: 10px;
-  z-index: 6;
+  padding: 10px 10px 10px 10px;
+  z-index: 10;
   height: auto;
   width: 100%;
   background-color: #c0c0c0;
   text-align: left;
   border-style: outset;
 }
-.menu ul li
-{
-  font-family: monospace;
-  font-weight: lighter;
-  list-style: none;
-  display: inline-block;
-  padding: 5px;
-  text-transform: uppercase;
-}
-.menu ul li a
+.navbar a
 {
   text-decoration: none;
-  color: #007FFF;
+  padding-right: 10px;
+  padding-left: 10px;
+  color: #007fff;
+  border-right: 1px solid #DC143c;
   font-size: 15px;
+  font-family: monospace;
 }
-.menu ul li a:hover
+.navbar a:hover
 {
 color: #FF4500;
 }
+
 blockquote
 {
   margin: 1%;
@@ -47,6 +44,11 @@ blockquote
   font-size: 22px;
   border-top: 1px solid #FFBF00;
   border-bottom: 1px solid #0088dd;
+}
+.bck
+{
+  display: inline-block;
+  position: relative;
 }
 .bck h1
 {
@@ -58,7 +60,6 @@ color: #007FFF;
 font-size: 55px;
 padding-bottom: 20px;
 position: relative;
-z-index: 10;
 }
 img
 {
@@ -165,7 +166,7 @@ position: relative;
   float: left;
   margin-top: 5%;
   margin-left: 4%;
-  max-width: 60%;
+  width: 60%;
   font-size: 25px;
   color: #1c39bb;
   text-align: center;
