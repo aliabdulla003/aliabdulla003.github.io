@@ -3,15 +3,14 @@
 {
   margin: auto;
   box-sizing: border-box;
-  position: relative;
 }
 body
 {
   background-color: #f0f8ff;
+  position: relative;
 }
 .menu
 {
-  position: fixed;
   margin: auto;
   padding: 10px;
   z-index: 6;
